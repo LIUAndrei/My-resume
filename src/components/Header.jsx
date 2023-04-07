@@ -1,6 +1,21 @@
+import { FaTelegram } from 'react-icons/fa'
+import { MdMail } from 'react-icons/md'
+import { BsPhoneVibrate } from 'react-icons/bs'
+import { BiSun } from 'react-icons/bi'
+
 const Header = () => {
+  const darkModeToggle = () => {
+    document.documentElement.classList.toggle('dark')
+  }
+
   return (
     <header className='relative z-1 w-full flex flex-row justify-between m-0 p-0 pb-8 bg-transparent'>
+      <div
+        onClick={(event) => darkModeToggle()}
+        className='absolute top-[-15px] left-[-15px] cursor-pointer'
+      >
+        <BiSun />
+      </div>
       <div className='photo w-[12%] flex justify-center items-center'>
         <img
           src='./src/assets/small_mypicture.jpg'
@@ -13,17 +28,29 @@ const Header = () => {
           Andrei Liubinski
         </h1>
         <p className='position'>Full-Stack Developer</p>
-        <div className='contacts'>
-          <a href='mailto:box@aiubinski.us' className='text-sm'>
-            box@aiubinski.us
+        <div className='contacts flex flex-row'>
+          <a
+            href='mailto:box@aliubinski.us'
+            className='text-sm flex flex-row justify-center items-center'
+          >
+            <MdMail />
+            <p>:box@aliubinski.us</p>
           </a>
           <span className='text-heading'>&nbsp;//&nbsp;</span>
-          <a href='tel:+375257112405' className='text-sm'>
-            tel:+375257112405
+          <a
+            href='tel:+375257112405'
+            className='text-sm flex flex-row justify-center items-center'
+          >
+            <BsPhoneVibrate />
+            <p>:(+375)25-711-2405</p>
           </a>
           <span className='text-heading'>&nbsp;//&nbsp;</span>
-          <a href='https://t.me/alxdrvnsk' className='text-sm'>
-            Telegram:@alxdrvnsk
+          <a
+            href='https://t.me/alxdrvnsk'
+            className='text-sm flex flex-row justify-center items-center'
+          >
+            <FaTelegram />
+            <p>:@alxdrvnsk</p>
           </a>
         </div>
       </div>

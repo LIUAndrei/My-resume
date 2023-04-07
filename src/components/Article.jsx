@@ -28,7 +28,7 @@ const Article = ({ sectionTitle, unit }) => {
       <div className='title w-full py-3 m-0 flex flex-row justify-between items-center'>
         <h3 className='title text-base font-medium text-heading'>
           {unit.name}&nbsp;
-          <span className='text-xs text-text italic'>
+          <span className='text-xs text-liteColor dark:text-darkColor italic'>
             {sectionTitle === 'Development Experience & Courses'
               ? 'by'
               : 'with'}{' '}

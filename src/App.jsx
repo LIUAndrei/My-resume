@@ -4,7 +4,7 @@ import { courses, jobs, skills, projects } from './assets/constants'
 
 function App() {
   return (
-    <div className='wrapper h-full w-full p-8 bg-background'>
+    <div className='wrapper h-full w-full p-8 bg-darkColor text-liteColor dark:text-darkColor dark:bg-liteColor'>
       <Header />
       <main className='w-full flex flex-row'>
         <div className='w-3/4 pr-2'>

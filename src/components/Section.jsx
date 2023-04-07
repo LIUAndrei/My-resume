@@ -24,7 +24,7 @@ const Section = ({ section }) => {
   return (
     <section className='m-0 px-0 py-8 bg-transparent'>
       <div className='w-full h-[3px] bg-heading'></div>
-      <h2 className='relative z-10 text-heading text-lg font-bold top-[-18px] bg-background max-w-fit pr-5'>
+      <h2 className='relative z-10 text-heading text-lg font-bold top-[-18px] bg-darkColor dark:bg-liteColor max-w-fit pr-5'>
         {section.section_title}
       </h2>
       {render}

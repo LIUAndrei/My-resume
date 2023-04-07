@@ -12,11 +12,11 @@ export const courses = {
       ],
     },
     {
-      name: 'Javascript 2020',
+      name: 'JavaScript 2020',
       description: 'Jonas Schmedtmann (Udemy)',
       timeframe: 'march 2021 - september 2021',
       points: [
-        'A comprehensive Javascript course from Udemy that gives complete knowledge necessary to develop web applications with Javascript',
+        'A comprehensive JavaScript course from Udemy that gives complete knowledge necessary to develop web applications with JavaScript',
         'I have learned the fundamentals of the language such as variables, loops, functions, data types, as well as the more complex things like OOP with JS, call stack, heap, garbage collection in JS, asyncronous JS',
         `Along the way I've developed a few applications such as mock banking app, excercise map and more`,
       ],
