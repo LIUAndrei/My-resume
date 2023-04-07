@@ -9,7 +9,6 @@ lerna-debug.log*
 
 node_modules
 pavelgit-cv-0a5ec9d4ec7a
-dist
 dist-ssr
 *.local
 
