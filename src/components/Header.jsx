@@ -2,6 +2,7 @@ import { FaTelegram } from 'react-icons/fa/index.js'
 import { MdMail } from 'react-icons/md/index.js'
 import { BsPhoneVibrate } from 'react-icons/bs/index.js'
 import { BiSun } from 'react-icons/bi/index.js'
+import myPhoto from '../assets/small_mypicture.jpg'
 
 const Header = () => {
   const darkModeToggle = () => {
@@ -18,7 +19,7 @@ const Header = () => {
       </div>
       <div className='photo w-[12%] flex justify-center items-center'>
         <img
-          src='./src/assets/small_mypicture.jpg'
+          src={myPhoto}
           alt='My picture'
           className='rounded-2xl w-[100%] border dark:border-headingForDark border-headingForLite '
         />
