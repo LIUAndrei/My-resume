@@ -1,6 +1,6 @@
-import Header from './components/Header'
-import Section from './components/Section'
-import { courses, jobs, skills, projects } from './assets/constants'
+import Header from './components/Header.jsx'
+import Section from './components/Section.jsx'
+import { courses, jobs, skills, projects } from './assets/constants.js'
 
 function App() {
   return (

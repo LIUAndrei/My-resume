@@ -1,4 +1,4 @@
-import { skills } from '../assets/constants'
+import { skills } from '../assets/constants.js'
 
 const Skills = () => {
   const widthVariants = 'w-1/5 w-2/5 w-3/5 w-4/5'

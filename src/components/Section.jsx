@@ -1,6 +1,6 @@
-import Article from './Article'
-import Projects from './Projects'
-import Skills from './Skills'
+import Article from './Article.jsx'
+import Projects from './Projects.jsx'
+import Skills from './Skills.jsx'
 
 const Section = ({ section }) => {
   let render

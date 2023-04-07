@@ -1,4 +1,4 @@
-import { projects } from '../assets/constants'
+import { projects } from '../assets/constants.js'
 
 const Projects = () => {
   return (
