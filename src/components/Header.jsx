@@ -1,7 +1,7 @@
-import { FaTelegram } from 'react-icons/fa'
-import { MdMail } from 'react-icons/md'
-import { BsPhoneVibrate } from 'react-icons/bs'
-import { BiSun } from 'react-icons/bi'
+import { FaTelegram } from 'react-icons/fa/index.js'
+import { MdMail } from 'react-icons/md/index.js'
+import { BsPhoneVibrate } from 'react-icons/bs/index.js'
+import { BiSun } from 'react-icons/bi/index.js'
 
 const Header = () => {
   const darkModeToggle = () => {
