@@ -10,8 +10,9 @@ module.exports = {
       },
       colors: {
         darkColor: '#262626',
-        heading: '#78A9FF',
-        liteColor: '#F4F4F4',
+        headingForDark: 'hsl(218, 100%, 74%)',
+        headingForLite: 'hsl(218, 100%, 25%)',
+        liteColor: 'hsl(0, 0%, 98%)',
         tertiary: '#151030',
         'black-100': '#100d25',
         'black-200': '#090325',

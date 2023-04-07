@@ -7,9 +7,9 @@ const Projects = () => {
         <a
           href={project[2]}
           key={i}
-          className='my-3 w-[90%] outline-dashed outline-1 outline-heading rounded'
+          className='my-3 w-[90%] outline-dashed outline-1 outline-headingForDark  rounded'
         >
-          <p className='bg-heading font-semibold rounded-br-lg rounded-tl dark:text-darkColor text-liteColor px-3 max-w-fit'>
+          <p className='bg-headingForDark  font-semibold rounded-br-lg rounded-tl text-darkColor dark:text-liteColor px-3 max-w-fit'>
             {project[0]}
           </p>
           <p className='p-2 text-sm '>{project[1]}</p>

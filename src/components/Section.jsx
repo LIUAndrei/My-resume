@@ -23,8 +23,8 @@ const Section = ({ section }) => {
   console.log(section.section_title)
   return (
     <section className='m-0 px-0 py-8 bg-transparent'>
-      <div className='w-full h-[3px] bg-heading'></div>
-      <h2 className='relative z-10 text-heading text-lg font-bold top-[-18px] bg-darkColor dark:bg-liteColor max-w-fit pr-5'>
+      <div className='w-full h-[3px] dark:bg-headingForDark bg-headingForLite'></div>
+      <h2 className='relative z-10 dark:text-headingForDark text-headingForLite text-lg font-bold top-[-18px] dark:bg-darkColor bg-liteColor max-w-fit pr-5'>
         {section.section_title}
       </h2>
       {render}

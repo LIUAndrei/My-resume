@@ -7,14 +7,14 @@ const Skills = () => {
       {skills.list.map((skill) => (
         <div
           key={skill[0]}
-          className='relative rounded my-3 w-[90%] h-6 pl-2 flex items-center justify-start  outline-dashed outline-1 outline-heading'
+          className='relative rounded my-3 w-[90%] h-6 pl-2 flex items-center justify-start  outline-dashed outline-1  outline-headingForDark'
         >
           <div
-            className={`z-0 rounded-l absolute top-0 left-0 bg-heading h-full 
+            className={`z-0 rounded-l absolute top-0 left-0 bg-headingForDark  h-full 
             ${skill[1] === 5 ? 'w-full' : `w-${skill[1]}/5`}
             `}
           ></div>
-          <p className='z-1 absolute text-base text-liteColor dark:text-darkColor font-semibold tracking-wide'>
+          <p className='z-1 absolute text-base dark:text-liteColor text-darkColor font-semibold tracking-wide'>
             {skill[0]}
           </p>
         </div>

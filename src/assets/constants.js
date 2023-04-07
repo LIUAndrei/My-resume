@@ -2,13 +2,13 @@ export const courses = {
   section_title: `Development Experience & Courses`,
   list: [
     {
-      name: 'HTML, CSS, JavaScript interactive course',
-      description: 'HTMLAcademy.ru',
-      timeframe: 'march 2020 - august 2020',
+      name: 'Frontend Career Bootcamp',
+      description: 'Scrimba.com',
+      timeframe: 'january 2021 - january 2022',
       points: [
-        'This course is an interactive and visual way to learn HTML, CSS, with some JS and PHP',
-        'It allowed me to have a strong understanding of webpage structure including tricky parts like HTML semantics, CSS grid & flexbox',
-        `Some static pages were made as part of this course`,
+        `A self-paced course with own REPL system that explains minute details of tech that I've learned previously`,
+        `It allowed me to expand my skill in HTML, CSS, JS, explained frameworks such as Bootstrap, Tailwind CSS, preprocessors such as PostCSS and SCSS, JS library React and much more`,
+        `A reminder app was made with React and Tailwind as a part of this course`,
       ],
     },
     {
@@ -21,14 +21,15 @@ export const courses = {
         `Along the way I've developed a few applications such as mock banking app, excercise map and more`,
       ],
     },
+
     {
-      name: 'Frontend Career Bootcamp',
-      description: 'Scrimba.com',
-      timeframe: 'january 2021 - january 2022',
+      name: 'HTML, CSS, JavaScript interactive course',
+      description: 'HTMLAcademy.ru',
+      timeframe: 'march 2020 - august 2020',
       points: [
-        `A self-paced course with own REPL system that explains minute details of tech that I've learned previously`,
-        `It allowed me to expand my skill in HTML, CSS, JS, explained frameworks such as Bootstrap, Tailwind CSS, preprocessors such as PostCSS and SCSS, JS library React and much more`,
-        `A reminder app was made with React and Tailwind as a part of this course`,
+        'This course is an interactive and visual way to learn HTML, CSS, with some JS and PHP',
+        'It allowed me to have a strong understanding of webpage structure including tricky parts like HTML semantics, CSS grid & flexbox',
+        `Some static pages were made as part of this course`,
       ],
     },
     // {
