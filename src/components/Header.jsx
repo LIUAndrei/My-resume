@@ -34,28 +34,26 @@ const Header = () => {
             href='mailto:box@aliubinski.us'
             className='text-sm flex flex-row justify-center items-center'
           >
-            <MdMail />
-            <p>:box@aliubinski.us</p>
+            <p>box@aliubinski.us</p>
           </a>
           <span className='dark:text-headingForDark text-headingForLite'>
-            &nbsp;//&nbsp;
+            &nbsp;|&nbsp;
           </span>
           <a
             href='tel:+375257112405'
             className='text-sm flex flex-row justify-center items-center'
           >
-            <BsPhoneVibrate />
-            <p>:(+375)25-711-2405</p>
+            <p>+37525-711-2405</p>
           </a>
           <span className='dark:text-headingForDark text-headingForLite'>
-            &nbsp;//&nbsp;
+            &nbsp;|&nbsp;
           </span>
           <a
             href='https://t.me/alxdrvnsk'
             className='text-sm flex flex-row justify-center items-center'
           >
-            <FaTelegram />
-            <p>:@alxdrvnsk</p>
+            <FaTelegram color='hsl(218, 100%, 74%)' />
+            <p>&nbsp;alxdrvnsk</p>
           </a>
         </div>
       </div>
