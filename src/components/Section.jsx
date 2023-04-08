@@ -4,7 +4,7 @@ import Skills from './Skills.jsx'
 import About from './About.jsx'
 import Education from './Education.jsx'
 
-const Section = ({ section }) => {
+const Section = ({ section, extraMargin }) => {
   let render
   if (section.section_title === 'Education') {
     render = <Education />
@@ -30,7 +30,11 @@ const Section = ({ section }) => {
 
   console.log(section.section_title)
   return (
-    <section className='m-0 px-0 py-4 bg-transparent flex-1'>
+    <section
+      className={`m-0 px-0 py-4 bg-transparent flex-1 ${
+        extraMargin && 'extramargin'
+      }`}
+    >
       <div className='w-full h-[3px] dark:bg-headingForDark bg-headingForLite'></div>
       <h2 className='relative z-10 dark:text-headingForDark text-headingForLite text-lg font-bold top-[-18px] dark:bg-darkColor bg-liteColor max-w-fit pr-5'>
         {section.section_title}

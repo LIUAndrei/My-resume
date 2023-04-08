@@ -23,7 +23,7 @@ function App() {
         </div>
       </div>
       <div className='do-not-break'>
-        <Section section={jobs} />
+        <Section section={jobs} extraMargin={true} />
       </div>
     </div>
   )
