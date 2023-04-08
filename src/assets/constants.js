@@ -7,12 +7,12 @@ export const about = {
 }
 
 export const education = {
-  section_title: 'Curriculum Vitae',
+  section_title: 'Education',
   list: [
-    `Moldova State University`,
-    `Chisinau, Moldova`,
-    `Biology and soil science faculty, 2007`,
-    `Biotechnology specialization`,
+    [`University`, `Moldova State University`],
+    [`In`, `Chisinau, Moldova`],
+    [`Faculty`, `Biology and soil science faculty, 2007`],
+    [`Major`, `Biotechnology specialization`],
   ],
 }
 

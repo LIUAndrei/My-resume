@@ -6,7 +6,7 @@ import Education from './Education.jsx'
 
 const Section = ({ section }) => {
   let render
-  if (section.section_title === 'Curriculum Vitae') {
+  if (section.section_title === 'Education') {
     render = <Education />
   }
   if (section.section_title === 'About me') {
