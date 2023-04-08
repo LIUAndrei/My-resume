@@ -1,22 +1,22 @@
 import { FaTelegram } from 'react-icons/fa/index.js'
 import { MdMail } from 'react-icons/md/index.js'
 import { BsPhoneVibrate } from 'react-icons/bs/index.js'
-import { BiSun } from 'react-icons/bi/index.js'
+// import { BiSun } from 'react-icons/bi/index.js'
 import myPhoto from '../assets/small_mypicture.jpg'
 
 const Header = () => {
-  const darkModeToggle = () => {
-    document.documentElement.classList.toggle('dark')
-  }
+  // const darkModeToggle = () => {
+  //   document.documentElement.classList.toggle('dark')
+  // }
 
   return (
     <header className='relative z-1 w-full flex flex-row justify-between m-0 p-0 pb-8 bg-transparent'>
-      <div
+      {/* <div
         onClick={(event) => darkModeToggle()}
         className='absolute top-[-15px] left-[-15px] cursor-pointer'
       >
         <BiSun />
-      </div>
+      </div> */}
       <div className='photo w-[12%] flex justify-center items-center'>
         <img
           src={myPhoto}
@@ -28,7 +28,7 @@ const Header = () => {
         <h1 className='name dark:text-headingForDark text-headingForLite text-4xl font-medium'>
           Andrei Liubinski
         </h1>
-        <p className='position'>Full-Stack Developer</p>
+        <p className='position'>Web Developer</p>
         <div className='contacts flex flex-row'>
           <a
             href='mailto:box@aliubinski.us'

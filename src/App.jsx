@@ -1,21 +1,30 @@
 import Header from './components/Header.jsx'
 import Section from './components/Section.jsx'
-import { courses, jobs, skills, projects } from './assets/constants.js'
+import {
+  education,
+  about,
+  courses,
+  jobs,
+  skills,
+  projects,
+} from './assets/constants.js'
 
 function App() {
   return (
     <div className='wrapper h-full w-full p-8 dark:bg-darkColor dark:text-liteColor text-darkColor bg-liteColor'>
-      <Header />
-      <main className='w-full flex flex-row'>
-        <div className='w-3/4 pr-2'>
-          <Section section={courses} />
-          <Section section={jobs} />
-        </div>
-        <div className='w-1/4 pl-2'>
+      <div className='do-not-break'>
+        <Header />
+        <Section section={about} />
+        <Section section={courses} />
+        <Section section={projects} />
+        <div className='flex flex-row  gap-4'>
           <Section section={skills} />
-          <Section section={projects} />
+          <Section section={education} />
         </div>
-      </main>
+      </div>
+      <div className='do-not-break'>
+        <Section section={jobs} />
+      </div>
     </div>
   )
 }

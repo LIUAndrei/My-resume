@@ -1,22 +1,11 @@
 import { skills } from '../assets/constants.js'
 
 const Skills = () => {
-  const widthVariants = 'w-1/5 w-2/5 w-3/5 w-4/5'
   return (
-    <div className='do-not-break w-full flex flex-col justify-evenly items-center'>
+    <div className='do-not-break  skills-container w-full flex flex-row flex-wrap gap-2 place-items-center justify-around'>
       {skills.list.map((skill) => (
-        <div
-          key={skill[0]}
-          className='relative rounded my-3 w-[90%] h-6 pl-2 flex items-center justify-start  outline-dashed outline-1  outline-headingForDark'
-        >
-          <div
-            className={`z-0 rounded-l absolute top-0 left-0 bg-headingForDark  h-full 
-            ${skill[1] === 5 ? 'w-full' : `w-${skill[1]}/5`}
-            `}
-          ></div>
-          <p className='z-1 absolute text-base dark:text-liteColor text-darkColor font-semibold tracking-wide'>
-            {skill[0]}
-          </p>
+        <div className='border dark:border-headingForDark border-headingForLite p-[3px] text-sm'>
+          {skill[0]}
         </div>
       ))}
     </div>

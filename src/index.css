@@ -1,12 +1,11 @@
 body {
   max-width: 8.5in;
-  height: 33in;
+  height: 22in;
   font-family: 'Nunito', sans-serif;
   font-size: 14px;
 }
 
-.do-not-break,
-section {
+.do-not-break {
   page-break-inside: avoid;
 }
 

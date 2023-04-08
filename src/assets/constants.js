@@ -1,5 +1,23 @@
+export const about = {
+  section_title: 'About me',
+  list: [
+    `Hello!  I'm a web developer with substantial knowledge in front-end technologies and a passion to learn more. Interested in computer tech since childhood - recently I had an amazing opportunity to acquire web programming as a hobby, yet seeking new opportunities to take me further into backend, mobile and AR/VR technologies as well.`,
+    `Learning, teamwork and practical experience are my priorities at the moment. I am a fast and passionate learner, my versatile experience helps me to ramp up in new areas and domains within days. Currently I am looking for a supportive team with high ambition and healthy learning culture.`,
+  ],
+}
+
+export const education = {
+  section_title: 'Curriculum Vitae',
+  list: [
+    `Moldova State University`,
+    `Chisinau, Moldova`,
+    `Biology and soil science faculty, 2007`,
+    `Biotechnology specialization`,
+  ],
+}
+
 export const courses = {
-  section_title: `Development Experience & Courses`,
+  section_title: `Relevant Experience & Courses`,
   list: [
     {
       name: 'Frontend Career Bootcamp',
@@ -28,8 +46,8 @@ export const courses = {
       timeframe: 'march 2020 - august 2020',
       points: [
         'This course is an interactive and visual way to learn HTML, CSS, with some JS and PHP',
-        'It allowed me to have a strong understanding of webpage structure including tricky parts like HTML semantics, CSS grid & flexbox',
-        `Some static pages were made as part of this course`,
+        'It allowed me to have a strong understanding of webpage structure including parts like HTML semantics, CSS grid & flexbox',
+        `As part of this course I have made a few static pages.`,
       ],
     },
     // {
@@ -48,10 +66,9 @@ export const jobs = {
   list: [
     {
       name: `Client Support Agent`,
-      description: `Capital.com`,
+      description: `Capital.com, Belarus`,
       timeframe: `june 2021 - august 2022`,
       responsibilities: [
-        `Responding to requests and inquiries of clients via Zendesk Platform`,
         `Answering questions regarding the platform, it's functionality, trading, and finance in general using the language of the inquirer`,
         `Dealing with disgruntled clients in the way that leaves them satisfied, explaining their mistakes without hinting that they are the ones who is responsible for their losses`,
         `Ensuring that company's strict KYC policies as well as GDPR, FATCA and FATF laws are followed`,
@@ -64,7 +81,7 @@ export const jobs = {
     },
     {
       name: `On-site safety inspector`,
-      description: `1845 Oilfield Service`,
+      description: `1845 Oilfield Service, USA`,
       timeframe: `october 2018 - november 2019`,
       responsibilities: [
         `Ensuring safety compliance of proppant delivery drivers`,
@@ -73,12 +90,12 @@ export const jobs = {
       ],
       achievements: [
         `No delivery-related incidents occured during my shifts`,
-        `Ensured no safety-related downtime durig my shifts both for the contractors and the service company`,
+        `Ensured no safety-related downtime during my shifts both for the contractors and the service company`,
       ],
     },
     {
       name: `On & off-site proppant delivery dispatcher`,
-      description: `Stevens Tanker Division`,
+      description: `Stevens Tanker Division, USA`,
       timeframe: `october 2018 - november 2019`,
       responsibilities: [
         `Ensuring steady stream of necessary deliveries`,
@@ -93,7 +110,7 @@ export const jobs = {
     },
     {
       name: `Long haul driver & driver trainer`,
-      description: `Stevens Transport`,
+      description: `Stevens Transport, USA`,
       timeframe: `september 2013 - october 2018`,
       responsibilities: [
         `Delivering goods as a truck driver, including the hazardous materials`,
@@ -133,12 +150,12 @@ export const projects = {
   list: [
     [
       `'Bankist'`,
-      `Mock banking application`,
+      `Client-side banking application. Transfer money, request loans, close accounts.`,
       `https://aliubinski.us/Projects/Bankist/`,
     ],
     [
       `'Forkify'`,
-      `Recipe app that uses 3rd party API`,
+      `Recipe app that uses 3rd party API. Find recipes, change serving size, or add your own recipes`,
       `https://aliubinski.us/Projects/Forkify/`,
     ],
     [
