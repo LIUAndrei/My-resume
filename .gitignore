@@ -8,6 +8,8 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+PDFs
+dist
 pavelgit-cv-0a5ec9d4ec7a
 dist-ssr
 *.local

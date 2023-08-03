@@ -65,6 +65,21 @@ export const jobs = {
   section_title: `Professional History`,
   list: [
     {
+      name: `React Developer`,
+      description: `Freelance job(inquire for reference)`,
+      timeframe: `october 2022 - june 2023`,
+      responsibilities: [
+        `My task was to create a working prototype of an app for an oncology clinic that would track history of the patients' symptoms, diagnoses and side-effects during the treatment`,
+        `Make a graphic representation of the patient body and locations of the problems that are tracked in the duration of the treatment`,
+        `Develop both front- and back- ends of the app`,
+      ],
+      achievements: [
+        `Toghether with the client we have tracked the development process and were updating the requirements as new arose, or removing unnecesary ones if such were identified`,
+        `The app was developed in accordance with the client goals and on time`,
+        `The stack used: ReactJS, NodeJS, ExpressJS, TailwindCSS, SyncfusionUI, D3.js, Framer Motion, SQLite`,
+      ],
+    },
+    {
       name: `Client Support Agent`,
       description: `Capital.com, Belarus`,
       timeframe: `june 2021 - august 2022`,
@@ -139,9 +154,10 @@ export const skills = {
     ['Svelte', 3],
     ['ThreeJS', 2],
     ['Vite', 2],
-    ['Webkit', 2],
+    ['WebPack', 2],
     ['BASH', 2],
     ['NodeJS', 1],
+    ['NextJS', 1],
   ],
 }
 
