@@ -95,48 +95,60 @@ export const jobs = {
       ],
     },
     {
-      name: `On-site safety inspector`,
-      description: `1845 Oilfield Service, USA`,
-      timeframe: `october 2018 - november 2019`,
+      name: `Various oilfield and logistics related roles`,
+      description: `Texas, USA`,
+      timeframe: `september 2013 - january 2020`,
       responsibilities: [
-        `Ensuring safety compliance of proppant delivery drivers`,
-        `Ensuring H2S compliance of subcontractors present on oilwell site`,
-        `Cosigning safety  every delivery of HazMat shippment as an PEC safety officer`,
+        `On-site safety inspector with 1845 Oilfield Service`,
+        `On & off-site proppant delivery dispatcher with Stevens Tanker Division`,
+        `Long haul driver & driver trainer with Stevens Transport`,
       ],
-      achievements: [
-        `No delivery-related incidents occured during my shifts`,
-        `Ensured no safety-related downtime during my shifts both for the contractors and the service company`,
-      ],
+      achievements: [],
     },
-    {
-      name: `On & off-site proppant delivery dispatcher`,
-      description: `Stevens Tanker Division, USA`,
-      timeframe: `october 2018 - november 2019`,
-      responsibilities: [
-        `Ensuring steady stream of necessary deliveries`,
-        `Making sure that each shift has sufficient capacity to service the work-site`,
-        `Making sure that every contractor and employee has a fair share of work dispatched to them`,
-      ],
-      achievements: [
-        `Was in the top 25% of performers among the dispatchers for 3 months in a row`,
-        `Was one of the dispatchers that drivers and contractors were trying to work with`,
-        `Dispatched over $120 mln worth of oilfield related goods over the period of employment`,
-      ],
-    },
-    {
-      name: `Long haul driver & driver trainer`,
-      description: `Stevens Transport, USA`,
-      timeframe: `september 2013 - october 2018`,
-      responsibilities: [
-        `Delivering goods as a truck driver, including the hazardous materials`,
-        `Ensuring the integrity of the shipped goods`,
-        `Training new drivers out of driving school to be safe and successful and profitable`,
-      ],
-      achievements: [
-        `Made over 400 deliveries during the employment time`,
-        `Trained 9 new drivers`,
-      ],
-    },
+
+    // {
+    //   name: `On-site safety inspector`,
+    //   description: `1845 Oilfield Service, USA`,
+    //   timeframe: `october 2018 - november 2019`,
+    //   responsibilities: [
+    //     `Ensuring safety compliance of proppant delivery drivers`,
+    //     `Ensuring H2S compliance of subcontractors present on oilwell site`,
+    //     `Cosigning safety  every delivery of HazMat shippment as an PEC safety officer`,
+    //   ],
+    //   achievements: [
+    //     `No delivery-related incidents occured during my shifts`,
+    //     `Ensured no safety-related downtime during my shifts both for the contractors and the service company`,
+    //   ],
+    // },
+    // {
+    //   name: `On & off-site proppant delivery dispatcher`,
+    //   description: `Stevens Tanker Division, USA`,
+    //   timeframe: `october 2017 - october 2018`,
+    //   responsibilities: [
+    //     `Ensuring steady stream of necessary deliveries`,
+    //     `Making sure that each shift has sufficient capacity to service the work-site`,
+    //     `Making sure that every contractor and employee has a fair share of work dispatched to them`,
+    //   ],
+    //   achievements: [
+    //     `Was in the top 25% of performers among the dispatchers for 3 months in a row`,
+    //     `Was one of the dispatchers that drivers and contractors were trying to work with`,
+    //     `Dispatched over $120 mln worth of oilfield related goods over the period of employment`,
+    //   ],
+    // },
+    // {
+    //   name: `Long haul driver & driver trainer`,
+    //   description: `Stevens Transport, USA`,
+    //   timeframe: `september 2013 - october 2018`,
+    //   responsibilities: [
+    //     `Delivering goods as a truck driver, including the hazardous materials`,
+    //     `Ensuring the integrity of the shipped goods`,
+    //     `Training new drivers out of driving school to be safe and successful and profitable`,
+    //   ],
+    //   achievements: [
+    //     `Made over 400 deliveries during the employment time`,
+    //     `Trained 9 new drivers`,
+    //   ],
+    // },
   ],
 }
 

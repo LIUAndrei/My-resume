@@ -15,16 +15,15 @@ function App() {
       <div className='do-not-break'>
         <Header />
         <Section section={about} />
-        <Section section={courses} />
+        <Section section={jobs} />
+        <Section section={courses} extraMargin={true} />
         <Section section={projects} />
         <div className='flex flex-row  gap-4'>
           <Section section={skills} />
           <Section section={education} />
         </div>
       </div>
-      <div className='do-not-break'>
-        <Section section={jobs} extraMargin={true} />
-      </div>
+      <div className='do-not-break'></div>
     </div>
   )
 }

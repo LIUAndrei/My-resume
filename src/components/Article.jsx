@@ -39,8 +39,10 @@ const Article = ({ sectionTitle, unit }) => {
       </div>
       {unit.responsibilities && <h4 className='mt-2'>Responsibilities:</h4>}
       <ul className='w-full pl-4 list-disc'>{render}</ul>
-      {unit.achievements && <h4 className='mt-2'>Achievements:</h4>}
-      {unit.achievements && (
+      {unit.achievements && unit.achievements.length > 0 && (
+        <h4 className='mt-2'>Achievements:</h4>
+      )}
+      {unit.achievements && unit.achievements.length > 0 && (
         <ul className='w-full pl-4 list-disc'>{renderAchievements}</ul>
       )}
     </div>
