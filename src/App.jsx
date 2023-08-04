@@ -16,12 +16,12 @@ function App() {
         <Header />
         <Section section={about} />
         <Section section={jobs} />
-        <Section section={courses} extraMargin={true} />
-        <Section section={projects} />
         <div className='flex flex-row  gap-4'>
-          <Section section={skills} />
-          <Section section={education} />
+          <Section section={skills} extraMargin={true} />
+          <Section section={education} extraMargin={true} />
         </div>
+        <Section section={courses} />
+        <Section section={projects} />
       </div>
       <div className='do-not-break'></div>
     </div>

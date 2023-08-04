@@ -36,7 +36,7 @@ const Header = () => {
           >
             <p>box@aliubinski.us</p>
           </a>
-          <span className='dark:text-headingForDark text-headingForLite'>
+          {/* <span className='dark:text-headingForDark text-headingForLite'>
             &nbsp;|&nbsp;
           </span>
           <a
@@ -54,6 +54,17 @@ const Header = () => {
           >
             <FaTelegram color='hsl(218, 100%, 74%)' />
             <p>&nbsp;alxdrvnsk</p>
+          </a> */}
+
+          <span className='dark:text-headingForDark text-headingForLite'>
+            &nbsp;|&nbsp;
+          </span>
+          <a
+            href='https://t.me/Andreiliu'
+            className='text-sm flex flex-row justify-center items-center'
+          >
+            <FaTelegram color='hsl(218, 100%, 74%)' />
+            <p>&nbsp;Andreiliu</p>
           </a>
         </div>
       </div>
