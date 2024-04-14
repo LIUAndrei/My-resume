@@ -1,7 +1,7 @@
 export const about = {
   section_title: "About me",
   list: [
-    `Hello!  I'm a former US truck driver with experience in customer experience management and web development with substantial knowledge in front-end technologies and a passion to learn more. Interested in computer tech since childhood - recently I had an amazing opportunity to acquire web programming as a hobby, yet seeking new opportunities to take me further into backend, mobile and AR/VR technologies as well.`,
+    `Hello!  I'm a former US truck driver with experience in customer experience management, web development and a passion to learn more.`,
     `Learning, teamwork and practical experience are my priorities at the moment. I am a fast and passionate learner, my versatile experience helps me to ramp up in new areas and domains within days. Currently I am looking for a supportive team with high ambition and healthy learning culture.`,
   ],
 };
@@ -107,13 +107,13 @@ export const jobs = {
     // },
 
     {
-      name: `On-site safety inspector`,
+      name: `Oilfield hazmat driver & On-site safety inspector`,
       description: `1845 Oilfield Service, USA`,
       timeframe: `october 2018 - november 2019`,
       responsibilities: [
         `Ensuring safety compliance of proppant delivery drivers`,
         `Ensuring H2S compliance of subcontractors present on oilwell site`,
-        `Cosigning safety  every delivery of HazMat shippment as an PEC safety officer`,
+        `Delivery of proppant and fuel during driving shifts`,
       ],
       achievements: [
         `No delivery-related incidents occured during my shifts`,
@@ -121,18 +121,11 @@ export const jobs = {
       ],
     },
     {
-      name: `On & off-site proppant delivery dispatcher`,
+      name: `Oilfield  delivery driver`,
       description: `Stevens Tanker Division, USA`,
       timeframe: `october 2017 - october 2018`,
       responsibilities: [
-        `Ensuring steady stream of necessary deliveries`,
-        `Making sure that each shift has sufficient capacity to service the work-site`,
-        `Making sure that every contractor and employee has a fair share of work dispatched to them`,
-      ],
-      achievements: [
-        `Was in the top 25% of performers among the dispatchers for 3 months in a row`,
-        `Was one of the dispatchers that drivers and contractors were trying to work with`,
-        `Dispatched over $120 mln worth of oilfield related goods over the period of employment`,
+        `Delivering sand and other dry proppant to fracpads across TX, LA, NM and OK`,
       ],
     },
     {
@@ -158,18 +151,15 @@ export const skills = {
     ["HTML", 5],
     ["CSS", 5],
     ["JavaScript", 4],
-    ["Tailwind CSS", 4],
-    ["JSON", 3],
-    ["SCSS", 3],
-    ["ReactJS", 3],
-    ["GIT", 3],
-    ["Svelte", 3],
-    ["ThreeJS", 2],
-    ["Vite", 2],
-    ["WebPack", 2],
-    ["BASH", 2],
-    ["NodeJS", 1],
-    ["NextJS", 1],
+    ["Python", 4],
+    ["USA Trucking", 3],
+    ["CDL", 3],
+    ["HazMat", 3],
+    ["Hours Of Service", 3],
+    ["Load Boards", 3],
+    ["Management", 2],
+    ["Native level English", 2],
+    ["Negotiations", 2],
   ],
 };
 
