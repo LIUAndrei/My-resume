@@ -38,16 +38,16 @@ const Header = () => {
           >
             <p>box@aliubinski.us</p>
           </a>
-          {/* <span className='dark:text-headingForDark text-headingForLite'>
+          <span className="dark:text-headingForDark text-headingForLite">
             &nbsp;|&nbsp;
           </span>
           <a
-            href='tel:+375257112405'
-            className='text-sm flex flex-row justify-center items-center'
+            href="tel:+37369895602"
+            className="text-sm flex flex-row justify-center items-center"
           >
-            <p>+37525-711-2405</p>
+            <p>+37369-895-602</p>
           </a>
-          <span className='dark:text-headingForDark text-headingForLite'>
+          {/*<span className='dark:text-headingForDark text-headingForLite'>
             &nbsp;|&nbsp;
           </span>
           <a

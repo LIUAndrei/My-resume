@@ -107,13 +107,13 @@ export const jobs = {
     // },
 
     {
-      name: `Oilfield hazmat driver & On-site safety inspector`,
+      name: `Oilfield hazmat inspector & On-site safety inspector`,
       description: `1845 Oilfield Service, USA`,
       timeframe: `october 2018 - november 2019`,
       responsibilities: [
         `Ensuring safety compliance of proppant delivery drivers`,
         `Ensuring H2S compliance of subcontractors present on oilwell site`,
-        `Delivery of proppant and fuel during driving shifts`,
+        `Consigning safety compliance for outgoing hazmat shipments`,
       ],
       achievements: [
         `No delivery-related incidents occured during my shifts`,
@@ -135,7 +135,7 @@ export const jobs = {
       responsibilities: [
         `Delivering goods as a truck driver, including the hazardous materials`,
         `Ensuring the integrity of the shipped goods`,
-        `Training new drivers out of driving school to be safe and successful and profitable`,
+        `Training new drivers out of driving school to be safe, successful and profitable`,
       ],
       achievements: [
         `Made over 400 deliveries during the employment time`,
