@@ -65,7 +65,22 @@ export const jobs = {
   section_title: `Professional History`,
   list: [
     {
-      name: `React Developer`,
+      name: `Frontend Development Internship`,
+      description: `Stefanini EMEA, Chisinau`,
+      timeframe: `june 2024 - december 2024`,
+      responsibilities: [
+        `Internship with various frontend projects`,
+        // `Make a graphic representation of the patient body and locations of the problems that are tracked in the duration of the treatment`,
+        // `Develop both front- and back- ends of the app`,
+      ],
+      achievements: [
+        // `Toghether with the client we have tracked the development process and were updating the requirements as new arose, or removing unnecesary ones if such were identified`,
+        // `The app was developed in accordance with the client goals and on time`,
+        // `The stack used: ReactJS, NodeJS, ExpressJS, TailwindCSS, SyncfusionUI, D3.js, Framer Motion, SQLite`,
+      ],
+    },
+    {
+      name: `Frontend Developer`,
       description: `Freelance job(inquire for reference)`,
       timeframe: `october 2022 - june 2023`,
       responsibilities: [
@@ -74,9 +89,9 @@ export const jobs = {
         `Develop both front- and back- ends of the app`,
       ],
       achievements: [
-        `Toghether with the client we have tracked the development process and were updating the requirements as new arose, or removing unnecesary ones if such were identified`,
-        `The app was developed in accordance with the client goals and on time`,
-        `The stack used: ReactJS, NodeJS, ExpressJS, TailwindCSS, SyncfusionUI, D3.js, Framer Motion, SQLite`,
+        // `Toghether with the client we have tracked the development process and were updating the requirements as new arose, or removing unnecesary ones if such were identified`,
+        // `The app was developed in accordance with the client goals and on time`,
+        // `The stack used: ReactJS, NodeJS, ExpressJS, TailwindCSS, SyncfusionUI, D3.js, Framer Motion, SQLite`,
       ],
     },
     {
