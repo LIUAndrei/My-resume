@@ -69,13 +69,13 @@ export const jobs = {
       description: `Stefanini EMEA, Chisinau`,
       timeframe: `june 2024 - december 2024`,
       responsibilities: [
-        `Internship with various frontend projects`,
-        // `Make a graphic representation of the patient body and locations of the problems that are tracked in the duration of the treatment`,
-        // `Develop both front- and back- ends of the app`,
+        `Collaborated on a few projects, working within agile teams to deliver web applications.`,
+        `Implemented responsive and user-friendly interfaces using modern frontend technologies such as TS, Tailwind CSS, React 18&19, NX monorepo, Jest, Vite, RTL, RTK Query, MUI, Cypress, i18n and others.`,
+        `Took part in developing a large scale internal application that required complex libraries like WYSIWYG editors, questionnaires, involved complex relationships between libraries, login system with multi-layered access rights, lazy loading and hydration.`,
       ],
       achievements: [
-        // `Toghether with the client we have tracked the development process and were updating the requirements as new arose, or removing unnecesary ones if such were identified`,
-        // `The app was developed in accordance with the client goals and on time`,
+        `Massively improved my frontend skills and learned the importance of unit testing and test driven development in particular.`,
+        `Improved understanding of software development lifecycle and team collaboration in a professional environment.`,
         // `The stack used: ReactJS, NodeJS, ExpressJS, TailwindCSS, SyncfusionUI, D3.js, Framer Motion, SQLite`,
       ],
     },
